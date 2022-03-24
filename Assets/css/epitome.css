@@ -1,3 +1,23 @@
+
+@font-face {
+  font-family: noteworthy-b;
+  src: url(noteworthy-bold.ttf);
+}
+
+@font-face {
+  font-family: noteworthy-r;
+  src: url(noteworthy-regular.ttf);
+}
+
+.noteworthyR{
+  font-family: noteworthy-r;
+
+}
+.noteworthyB{
+  font-family: noteworthy-b;
+
+}
+
 @media only screen and (min-width:600px) {
   .mobilenav{
   display:block;
@@ -16,6 +36,8 @@
     padding-right:100px;
     /* padding-bottom:55px !important; */
     /* position:fixed; */
+    /* padding-bottom:60px !important; */
+
 }
 
 
@@ -51,6 +73,7 @@ font-weight:bold;
     background-color: inherit;
     color:white;
     /* margin-top:-50px !important; */
+
 
   }
 
