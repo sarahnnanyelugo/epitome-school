@@ -9,6 +9,33 @@
   src: url(noteworthy-regular.ttf);
 }
 
+
+@font-face {
+  font-family: mont-r;
+  src: url(mont-r.ttf);
+}
+
+
+
+@font-face {
+  font-family: mont-m;
+  src: url(mont-m.ttf);
+}
+
+
+
+.mont-m{
+  font-family: mont-m;
+
+}
+
+.mont-r{
+  font-family: mont-r;
+
+}
+
+
+
 .noteworthyR{
   font-family: noteworthy-r;
 
