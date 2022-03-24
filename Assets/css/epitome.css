@@ -427,7 +427,7 @@ text-align:center !important;
     position: absolute;
     /* top: -25%; */
     width: auto;
-    /* margin-top: -22px; */
+    margin-top: -52px;
     padding: 16px;
     color: black;
     font-weight: bold;
@@ -660,8 +660,93 @@ font-size:20px;
 
 
 
+#eyfs{
+  height:200px;
+  background-image:url(../img/home/play.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
+}
 
 
+#eyfs:hover{
+  height:200px;
+  background-image:url(../img/eyfs.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+
+
+#nursery{
+  height:200px;
+  background-image:url(../img/home/doc.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+
+
+#nursery:hover{
+  height:200px;
+  background-image:url(../img/drama.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+
+#primary{
+  height:200px;
+  background-image:url(../img/home/class.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+
+
+#primary:hover{
+  height:200px;
+  background-image:url(../img/sing.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+
+
+#junior{
+  height:200px;
+  background-image:url(../img/home/wool.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+
+
+#junior:hover{
+  height:200px;
+  background-image:url(../img/eyfs.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+
+
+#senior{
+  height:200px;
+  background-image:url(../img/home/ball.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+
+
+#senior:hover{
+  height:200px;
+  background-image:url(../img/lab2.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
+}
 
 
 
@@ -672,7 +757,7 @@ font-size:20px;
   position: absolute;
   bottom: 0;
   left: 0;
-  right: 0;
+  right: -30px;
   /* background-color: rgba(60,83,147, 0.5); */
   overflow: hidden !important;
   height: 0;
@@ -689,7 +774,7 @@ font-size:20px;
 
 .text {
   color: white;
-  font-size: 25px;
+  font-size: 15px;
   position: absolute;
   top: 50%;
   left: 50%;
