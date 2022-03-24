@@ -559,7 +559,10 @@ padding-left:50px !important;
 .events a{
   margin-left:18px
 }
-
+#vision p{
+  margin-top:40px;
+   font-size:16px
+}
 
 .prev3, .next3 {
   cursor: pointer;
