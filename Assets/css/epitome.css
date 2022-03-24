@@ -649,17 +649,17 @@ font-size:20px;
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: red;
+  color: white;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
-  background-color:black;
+  background-color:rgba(19, 19, 19, 0.5);
   z-index:2;
-  height:200px;
+  height:290px;
   /* padding-top:200px; */
-  padding-bottom:200px
+  /* padding-bottom:200px */
 
 }
 
@@ -922,6 +922,27 @@ font-size:20px;
     width: 100%;
   }
 }
+
+
+
+.img-hover-zoom--brightness img {
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transform-origin: center center;
+  filter: brightness(50%);
+}
+
+/* The Transformation */
+.img-hover-zoom--brightness:hover img {
+  filter: brightness(100%);
+  transform: scale(1.3);
+}
+
+
+
+
+
+
+
 
 
 
