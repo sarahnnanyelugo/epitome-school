@@ -104,6 +104,9 @@
   margin-left:30px !important;
 
 }
+.next4 {
+  margin-right:-40px !important;
+}
 }
 
 
@@ -736,7 +739,7 @@ padding-left:50px !important;
   user-select: none;
   background-color:rgba(19, 19, 19, 0.5);
   z-index:2;
-  height:290px;
+  /* height:290px; */
   /* padding-top:200px; */
   /* padding-bottom:200px */
 
@@ -746,6 +749,7 @@ padding-left:50px !important;
 .next4 {
   right: 0;
   border-radius: 3px 0 0 3px;
+
 }
 
 /* On hover, add a black background color with a little bit see-through */
