@@ -108,6 +108,11 @@ padding:0 !important;
 .next4 {
   margin-right:-40px !important;
 }
+
+
+.slidmargin{
+  margin-top:78px !important;
+}
 }
 
 
@@ -1080,6 +1085,7 @@ padding-left:50px !important;
   bottom: 0;
   right: 0;
 }
+
 
 /* Transparent Overlay */
 .loading:before {
