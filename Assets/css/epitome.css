@@ -17,7 +17,16 @@
   font-family: mont-m;
   src: url(mont-m.ttf);
 }
+@font-face {
+  font-family: mm2;
+  src: url(mm2.ttf);
+}
 
+
+.mm{
+    font-family: mm;
+
+}
 .mont-m {
   font-family: mont-m;
 }
@@ -1240,7 +1249,8 @@ html {
 
 .head {
   color: red;
-  font-family: mont-m;
+    font-family: mm2;
+    font-weight:bold;
 }
 .head2 {
   font-family: noteworthy-b;
