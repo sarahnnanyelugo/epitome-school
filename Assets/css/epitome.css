@@ -1,4 +1,3 @@
-
 @font-face {
   font-family: noteworthy-b;
   src: url(noteworthy-bold.ttf);
@@ -9,567 +8,436 @@
   src: url(noteworthy-regular.ttf);
 }
 
-
 @font-face {
   font-family: mont-r;
   src: url(mont-r.ttf);
 }
-
-
 
 @font-face {
   font-family: mont-m;
   src: url(mont-m.ttf);
 }
 
-
-
-.mont-m{
+.mont-m {
   font-family: mont-m;
-
 }
 
-.mont-r{
+.mont-r {
   font-family: mont-r;
-
 }
 
-
-
-.noteworthyR{
+.noteworthyR {
   font-family: noteworthy-r;
-
 }
-.noteworthyB{
+.noteworthyB {
   font-family: noteworthy-b;
-
 }
 
-@media only screen and (min-width:600px) {
-  .mobilenav{
-  display:block;
-
+@media only screen and (min-width: 600px) {
+  .mobilenav {
+    display: block;
   }
-.flexy{
-  display:flex
-}
-#mySidenav{
-  display:none;
-}
-}
-
-@media only screen and (max-width:600px) {
-
-.topnav{
-  display:none;
-}
-#welcome{
-  padding-left:0 !important;
+  .flexy {
+    display: flex;
+  }
+  #mySidenav {
+    display: none;
+  }
 }
 
-#welcome h1{
-  font-size:20px !important;
-}
+@media only screen and (max-width: 600px) {
+  .topnav {
+    display: none;
+  }
+  #welcome {
+    padding-left: 0 !important;
+  }
 
+  #welcome h1 {
+    font-size: 20px !important;
+  }
 
+  #welcome p {
+    font-size: 13px !important;
+  }
+  #divisions {
+    margin-top: -20px !important;
+    /* margin-left:30px !important; */
+  }
+  .go {
+    display: none !important;
+  }
+  #vision {
+    padding: 10px !important;
+    /* margin-left:30px !important; */
+  }
+  #vision-img {
+    /* width:100% !important; */
+    margin-top: 0px !important;
+    margin-left: 5px !important;
+  }
+  .events {
+    margin-left: 7px !important;
+    margin-top: 0px !important;
+  }
+  .events-img {
+    margin-left: 7px !important;
+  }
+  .g-images {
+    /* margin-left:30px !important; */
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .next4 {
+    margin-right: -40px !important;
+  }
 
-#welcome p{
-  font-size:13px !important;
-}
-#divisions{
-  margin-top:-20px !important;
-  /* margin-left:30px !important; */
-}
-.go{
-  display:none !important;
-}
-#vision{
-  padding:10px !important;
-  /* margin-left:30px !important; */
-}
-#vision-img{
-  /* width:100% !important; */
-  margin-top:0px !important;
-  margin-left:5px !important;
+  .slidmargin {
+    margin-top: 78px !important;
+  }
+  .cent {
+    margin-left: 30px !important;
+  }
+  .menu {
+    padding: 10px !important;
+  }
+  .menu a {
+    font-size: 12px !important;
+  }
 
-}
-.events{
-  margin-left:7px !important;
-  margin-top:0px !important;
-}
-.events-img{
-  margin-left:7px !important;
+  ul.breadcrumb {
+    padding: 20px !important;
+  }
 
-}
-.g-images{
-  /* margin-left:30px !important; */
-width:100% !important;
-padding:0 !important;
-margin:0 !important;
-
-}
-.next4 {
-  margin-right:-40px !important;
-}
-
-
-.slidmargin{
-  margin-top:78px !important;
-}
-.cent{
-  margin-left:30px !important;
-}
-.menu{
-  padding:10px !important;
-}
-.menu a{
-  font-size:12px !important;
-
-}
-
-ul.breadcrumb {
-  padding: 20px !important;
-
-}
-
-ul.breadcrumb li {
-
-  font-size: 11px !important;
-
-
-
-}
-.dir{
-  font-size: 11px !important;
-
-}
-#desk{
-  padding-left:0px !important
-}
-#foot{
-  padding:0 !important;
-  /* background-position:center;
+  ul.breadcrumb li {
+    font-size: 11px !important;
+  }
+  .dir {
+    font-size: 11px !important;
+  }
+  #desk {
+    padding-left: 0px !important;
+  }
+  #foot {
+    padding: 0 !important;
+    /* background-position:center;
   background-repeat:no-repeat; */
-}
+  }
 }
 
 /*mobile nav*/
 
-.show {display: block !important;}
-
-
-
-
-
-
+.show {
+  display: block !important;
+}
 
 .sidenav {
-  height: 100% !important;/* 100% Full-height */
-  width: 0 ; /* 0 width - change this with JavaScript */
+  height: 100% !important; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
   position: fixed; /* Stay in place */
   z-index: 4; /* Stay on top */
   left: 0;
-  background-color:#4287BD!important;
+  background-color: #4287bd !important;
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 40px; /* Place content 60px from the top */
   padding-bottom: 20px; /* Place content 60px from the top */
-  top:0 !important;
+  top: 0 !important;
   transition: 1s; /* 0.5 second transition effect to slide in the sidenav */
 }
 /* The side navigation menu */
 
-.sidenav a{
+.sidenav a {
   padding: 0px 8px 8px 32px;
   text-decoration: none;
   font-size: 14px;
   color: white;
   display: block;
   transition: 0.3s;
-  font-weight:bold;
-  margin-top:40px;
+  font-weight: bold;
+  margin-top: 40px;
 }
-.sidenav .border1{
-  border-bottom:solid 1px black;
+.sidenav .border1 {
+  border-bottom: solid 1px black;
 }
 /* When you mouse over the navigation links, change their color */
 .sidenav .border1:hover {
-  background-color:rgb(40, 50, 138)!important;
-  color:rgb(179,43,49) !important;
-  text-decoration:none;
-  font-weight:bolder;
-  border:none !important;
-
-
+  background-color: rgb(40, 50, 138) !important;
+  color: rgb(179, 43, 49) !important;
+  text-decoration: none;
+  font-weight: bolder;
+  border: none !important;
 }
-
-
 
 /* Position and style the close button (top right corner) */
-.sidenav .closebtn{
+.sidenav .closebtn {
   position: absolute;
-  top: 20px;
+  top: 30px;
   right: 25px;
-  font-size: 36px;
+  /* font-size: 36px; */
   margin-left: 50px;
+  font-size: 26px;
 }
-
-
-
 
 .dropdown {
   position: relative;
   display: inline-block !important;
 }
 
-
-
-
-
-
-
-
 .dropdown a:hover {
-  background-color:rgb(35, 98, 146)!important;
-  color:white!important;
-text-decoration:none;
-border:none !important;
-font-weight:bold
-
+  background-color: rgb(35, 98, 146) !important;
+  color: white !important;
+  text-decoration: none;
+  border: none !important;
+  font-weight: bold;
 }
-
-
-
-
-
-
-
-
-
 
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color:rgb(35, 98, 146)!important;
+  background-color: rgb(35, 98, 146) !important;
   overflow: auto;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 4;
-max-height:150px;
+  max-height: 150px;
 }
-.dropdown-content a{
-color:white!important;
-font-weight:bold;
-font-size:10px;
-margin-top:7px;
-border-bottom:solid 1px rgb(114, 112, 112);
+.dropdown-content a {
+  color: white !important;
+  font-weight: bold;
+  font-size: 10px;
+  margin-top: 7px;
+  border-bottom: solid 1px rgb(114, 112, 112);
 
-/* border-bottom:solid 1px red; */
-
-
-
-
-
-
-
-
+  /* border-bottom:solid 1px red; */
 }
 
+#navbar {
+  height: 0px;
+  /* height:fit-content; */
+  width: 100%;
+  background-color: rgb(66, 135, 189);
+  padding-right: 100px;
+  padding-bottom: 80px !important;
+  padding-top: 0px !important;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#navbar{
-
-    height:0px;
-    /* height:fit-content; */
-    width:100%;
-    background-color:rgb(66,135,189);
-    padding-right:100px;
-    padding-bottom:80px !important;
-    padding-top:0px !important;
-
-    /* position:fixed; */
-    /* padding-bottom:60px !important; */
-
+  /* position:fixed; */
+  /* padding-bottom:60px !important; */
 }
 
-
-
-html{
-  scroll-behavior:smooth;
+html {
+  scroll-behavior: smooth;
 }
 
-.menu{
-  background-color:rgb(226, 224, 224);
-  padding:30px;
-/* font-size:19px */
-
+.menu {
+  background-color: rgb(226, 224, 224);
+  padding: 30px;
+  /* font-size:19px */
 }
-.menu a{
-  color:black;
+.menu a {
+  color: black;
   /* font-size:13px; */
   font-family: mont-r;
-
 }
 
-.active4 a{
-  color:blue !important;
+.active4 a {
+  color:rgb(66,135,189) !important;
 }
 .mylinks {
-margin-top:-60px;
-    font-size:16px;
-
+  margin-top: -60px;
+  font-size: 16px;
 }
-.activenavbar{
-  border-bottom:solid 4px white;
+.activenavbar {
+  border-bottom: solid 4px white;
 }
 
 .dropdown2 {
-    float: left;
-/* margin-top:0px; */
-    overflow: hidden;
+  float: left;
+  /* margin-top:0px; */
+  overflow: hidden;
+}
 
+.dropdown2 .dropbtn2 {
+  font-size: 14px !important;
+  border: none;
+  outline: none;
+  margin-right: 7px;
 
-  }
+  margin-left: 7px;
+  font-weight: bold;
+  background-color: inherit;
+  color: white;
+  /* margin-top:-50px !important; */
+  /* padding-bottom:33px; */
+}
 
+.dropdown2 .dropbtn2 a {
+  font-size: 14px !important;
+  font-weight: bolder !important;
+  border: none !important;
+  outline: none;
+  /* padding: 5px !important; */
+  background-color: inherit;
+  /* margin-top:5px !important; */
+  color: white;
+  /* top:100px !important; */
+}
 
+.dropdown2 .dropbtn2 a:hover {
+  text-decoration: none;
+}
 
+.dropdown2-content {
+  display: none;
+  opacity: 0;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  /* z-index: 1000 ; */
+  font-weight: bolder;
+  margin-top: -8px;
+  transition: max-height 0.2s ease-out !important;
+  padding: 15px;
+  /* top:85px !important; */
+}
 
+.dropdown2-content a {
+  color: rgb(8, 8, 95) !important;
+  font-size: 12px;
+  line-height: 30px;
+}
 
-  .dropdown2 .dropbtn2 {
-    font-size: 14px !important;
-    border: none;
-    outline: none;
-    margin-right:7px;
+.dropdown2-content a:hover {
+  text-decoration: none;
+}
 
-    margin-left:7px;
-font-weight:bold;
-    background-color: inherit;
-    color:white;
-    /* margin-top:-50px !important; */
-    /* padding-bottom:33px; */
-
-
-  }
-
-  .dropdown2 .dropbtn2 a {
-    font-size: 14px !important;
-    font-weight:bolder !important;
-    border: none !important;
-    outline: none;
-    /* padding: 5px !important; */
-    background-color: inherit;
-    /* margin-top:5px !important; */
-    color:white;
-    /* top:100px !important; */
-
-
-  }
-
-
-
-  .dropdown2 .dropbtn2 a:hover{
-    text-decoration:none;
-  }
-
-
-
-
-  .dropdown2-content  {
-    display:none;
-    opacity:0;
-    position:absolute;
-    background-color:#fff;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    /* z-index: 1000 ; */
-    font-weight:bolder;
-   margin-top:-8px ;
-    transition: max-height 0.2s ease-out !important;
-padding:15px;
-/* top:85px !important; */
-
-  }
-
-  .dropdown2-content a{
-    color:rgb(8, 8, 95) !important;
-font-size:12px;
-line-height:30px;
-
-  }
-
-  .dropdown2-content a:hover{
-      text-decoration:none;
-  }
-
-
-
-
-  .dropdown2:hover .dropdown2-content{
-    display:block ;
-     height:250px;
-     opacity:1;
-
-
- }
-
-
+.dropdown2:hover .dropdown2-content {
+  display: block;
+  height: 250px;
+  opacity: 1;
+}
 
 /* Add a black background color to the top navigation */
 .topnav2 {
-  background-color:rgb(66,135,189);
-  width:100%;
-    overflow: hidden;
+  background-color: rgb(66, 135, 189);
+  width: 100%;
+  overflow: hidden;
+}
 
+/* Style the links inside the navigation bar */
+.topnav2 a {
+  float: left;
+  display: block;
+  color: rgb(81, 81, 173);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+}
 
-  }
+/* Hide the link that should open and close the topnav on small screens */
+.topnav2 .icon {
+  display: none;
+}
 
-  /* Style the links inside the navigation bar */
-  .topnav2 a {
-    float: left;
-    display: block;
-    color: rgb(81, 81, 173);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 15px;
+/* Dropdown container - needed to position the dropdown content */
+.dropdown2 {
+  float: left;
+  overflow: hidden;
+}
 
-  }
+/* Style the dropdown button to fit inside the topnav */
+.dropdown2 .dropbtn3 {
+  font-size: 15px;
+  border: none;
+  border-bottom: solid 1px grey;
+  outline: none;
+  color: rgb(81, 81, 173);
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  text-align: center !important;
+}
 
-  /* Hide the link that should open and close the topnav on small screens */
-  .topnav2 .icon {
+/* Add a dark background on topnav links and the dropdown button on hover */
+.topnav2 a:hover,
+.dropdown2:hover .dropbtn3 {
+  text-decoration: none;
+}
+
+/* Add a grey background to dropdown links on hover */
+.dropdown-content2 a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Show the dropdown menu when the user moves the mouse over the dropdown button */
+.dropdown2:hover .dropdown-content2 {
+  display: block;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .topnav2 a:not(:first-child),
+  .dropdown2 .dropbtn3 {
     display: none;
   }
-
-  /* Dropdown container - needed to position the dropdown content */
-  .dropdown2 {
-    float: left;
-    overflow: hidden;
-  }
-  
-  /* Style the dropdown button to fit inside the topnav */
-  .dropdown2 .dropbtn3 {
-    font-size: 15px;
-    border: none;
-    border-bottom:solid 1px grey;
-    outline: none;
-    color: rgb(81, 81, 173);
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-text-align:center !important;
-
-  }
-
-
-
-
-
-
-
-
-
-  /* Add a dark background on topnav links and the dropdown button on hover */
-  .topnav2 a:hover, .dropdown2:hover .dropbtn3 {
-   text-decoration:none;
-  }
-
-  /* Add a grey background to dropdown links on hover */
-  .dropdown-content2 a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  /* Show the dropdown menu when the user moves the mouse over the dropdown button */
-  .dropdown2:hover .dropdown-content2 {
+  .topnav2 a.icon {
+    float: right;
     display: block;
   }
-
-  /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-  @media screen and (max-width: 600px) {
-    .topnav2 a:not(:first-child), .dropdown2 .dropbtn3 {
-      display: none;
-    }
-    .topnav2 a.icon {
-      float: right;
-      display: block;
-    }
+}
+@media screen and (min-width: 600px) {
+  .topnav2 a:not(:first-child),
+  .dropdown2 .dropbtn3 {
+    display: none;
   }
-  @media screen and (min-width: 600px) {
-    .topnav2 a:not(:first-child), .dropdown2 .dropbtn3 {
-      display: none;
-    }
+}
 
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav2.responsive {
+    position: relative;
   }
-
-
-
-
-
-  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-  @media screen and (max-width: 600px) {
-    .topnav2.responsive {position: relative;}
-    .topnav2.responsive a.icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .topnav2.responsive a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-    .topnav2.responsive .dropdown2 {float: none;}
-    .topnav2.responsive .dropdown-content2 {position: relative;}
-    .topnav2.responsive .dropdown2 .dropbtn3 {
-      display: block;
-      width: 100%;
-      text-align: left;
-    }
+  .topnav2.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
   }
-
-
-
-
-  @media screen and (min-width: 600px) {
-
-    .topnav2{
-        display:none !important
-    }
+  .topnav2.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
   }
+  .topnav2.responsive .dropdown2 {
+    float: none;
+  }
+  .topnav2.responsive .dropdown-content2 {
+    position: relative;
+  }
+  .topnav2.responsive .dropdown2 .dropbtn3 {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
 
-  #portal{
-    background-color:rgb(179,47,49);
-    padding:7px 16px 7px 16px !important;
-    border-radius:5px;
-    font-size:13px
-    }
+@media screen and (min-width: 600px) {
+  .topnav2 {
+    display: none !important;
+  }
+}
 
+#portal {
+  background-color: rgb(179, 47, 49);
+  padding: 7px 16px 7px 16px !important;
+  border-radius: 5px;
+  font-size: 13px;
+}
 
-    #portal a{
-        color:white !important;
-
-        }
-
-
-
-
-
+#portal a {
+  color: white !important;
+}
 
 .slideshow-container {
   width: 1000px;
@@ -583,7 +451,8 @@ text-align:center !important;
 }
 
 /* Next & previous buttons */
-.prev, .next {
+.prev,
+.next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -605,8 +474,9 @@ text-align:center !important;
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Caption text */
@@ -641,8 +511,9 @@ text-align:center !important;
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
-  background-color: blue!important;
+.active,
+.dot:hover {
+  background-color: black !important;
 }
 
 /* Fading animation */
@@ -654,155 +525,157 @@ text-align:center !important;
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
+#divisions {
+  color: white;
+  margin-top: 30px;
+  padding-top: 20px;
+  margin-bottom: 0px !important;
+  background-color: #4287bd;
+}
+#divisions img {
+  width: 100%;
+}
+#divisions h6 {
+  color: white !important;
+}
+#divisions h3 {
+}
 
+#vision {
+  height: 400px;
+  padding: 60px;
+  background-color: rgb(66, 135, 189);
+  border-top-right-radius: 2px;
+  color: white;
+  padding-right: 150px;
+  font-size: 14px;
+}
 
+#vision-img {
+  margin-left: -150px;
+  margin-top: 100px;
+}
 
+.mySlides2 {
+  display: none;
+}
 
-#divisions{
-   color:white;
-   margin-top:30px;
-   padding-top:20px;
-   margin-bottom:0px !important;
-   background-color:#4287bD;
-  }
-  #divisions img{
-    width:100%;
-  }
-  #divisions h6{
-    color:white!important;
+/* Next & previous buttons */
+.prev1,
+.next1 {
+  cursor: pointer;
+  position: absolute;
+  /* top: -25%; */
+  width: auto;
+  margin-top: -72px;
+  padding: 26px;
+  color: black;
+  font-weight: bold;
+  font-size: 38px;
+  transition: 0.6s ease;
+  user-select: none;
+  margin-left: 70px;
+}
 
-  }
-  #divisions h3{
-
-  }
-
-  #vision{
-    height:400px;
-    padding:60px;
-    background-color:rgb(66,135,189);
-    border-top-right-radius:2px;
-    color:white;
-    padding-right:150px;
-    font-size:14px;
-
-  }
-
-  #vision-img{
-    margin-left:-150px;
-    margin-top:100px;
-  }
-
-
-
-
-
-  .mySlides2 {
-    display: none;
-  }
-
-  /* Next & previous buttons */
-  .prev1, .next1 {
-    cursor: pointer;
-    position: absolute;
-    /* top: -25%; */
-    width: auto;
-    margin-top: -72px;
-    padding: 26px;
-    color: black;
-    font-weight: bold;
-    font-size: 38px;
-    transition: 0.6s ease;
-    user-select: none;
-    margin-left:70px
-  }
-
-  /* Position the "next button" to the right */
-  .next1 {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-    left:60px
+/* Position the "next button" to the right */
+.next1 {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  left: 60px;
   /* padding-left:4px !important; */
-
-  }
-  /* prev1{
+}
+/* prev1{
     margin-left:44px !important;
   } */
-  .dot2 {
-    cursor: pointer;
-    height: 5px !important;
-    width: 25px !important;
-    margin: 0 2px;
-    background-color:grey !important;
-    border-radius: 20%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-  }
-
-  .active2, .dot2:hover {
-    background-color: blue !important;
-  }
-  
-
-  /* Fading animation */
-  .faded2 {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
-  
-  @-webkit-keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
-
-  @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
-
-
-
-
-.events{
-  height:450px;
-  padding:30px;
-  background:url("../img/home/blue-bg.svg");
-color:white;
-margin-top:75px;
-margin-left:-15px;
-font-size:20px;
-padding-left:50px !important;
+.dot2 {
+  cursor: pointer;
+  height: 5px !important;
+  width: 25px !important;
+  margin: 0 2px;
+  background-color: grey !important;
+  border-radius: 20%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
 }
 
-
-.events h2{
-  margin-bottom:30px;
-  margin-left:18px
+.active2,
+.dot2:hover {
+  background-color: blue !important;
 }
 
-.events small{
-  margin-left:18px
+/* Fading animation */
+.faded2 {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
 }
 
-.events a{
-  margin-left:18px
-}
-#vision p{
-  margin-top:40px;
-   font-size:16px
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
-.prev3, .next3 {
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.events {
+  height: 450px;
+  padding: 30px;
+  background: url("../img/home/blue-bg.svg");
+  color: white;
+  margin-top: 75px;
+  margin-left: -15px;
+  font-size: 20px;
+  padding-left: 50px !important;
+}
+
+.events h2 {
+  margin-bottom: 30px;
+  margin-left: 18px;
+}
+
+.events small {
+  margin-left: 18px;
+}
+
+.events a {
+  margin-left: 18px;
+}
+#vision p {
+  margin-top: 40px;
+  font-size: 16px;
+}
+
+.prev3,
+.next3 {
   cursor: pointer;
   position: absolute;
   /* top: 102px; */
@@ -814,7 +687,7 @@ padding-left:50px !important;
   font-size: 30px;
   transition: 0.6s ease;
   user-select: none;
-  opacity:1
+  opacity: 1;
 }
 
 /* Position the "next button" to the right */
@@ -822,8 +695,8 @@ padding-left:50px !important;
   right: 0;
   border-radius: 3px 0 0 3px;
 }
-.prev3{
-  right:44px !important;
+.prev3 {
+  right: 44px !important;
 }
 .dot3 {
   cursor: pointer;
@@ -834,15 +707,15 @@ padding-left:50px !important;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
-  z-index:20;
-  position:relative;
+  z-index: 20;
+  position: relative;
 }
-.active3, .dot3:hover {
+.active3,
+.dot3:hover {
   background-color: white !important;
   height: 10px !important;
   width: 15px !important;
 }
-
 
 /* Fading animation */
 .faded3 {
@@ -853,36 +726,31 @@ padding-left:50px !important;
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
-
-
-
 
 .mySlides3 {
   display: none;
 }
 
-
-
-
-
-
-
-
-
 #welcome {
   /* margin-top:80px; */
-  padding-left:50px;
-
+  padding-left: 50px;
 }
-
 
 /* 
 
@@ -892,21 +760,14 @@ padding-left:50px !important;
 }
  */
 
-
-
-
-
-
-
-
-
 /* Hide the images by default */
 .mySlides4 {
   display: none;
 }
 
 /* Next & previous buttons */
-.prev4, .next4 {
+.prev4,
+.next4 {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -919,27 +780,24 @@ padding-left:50px !important;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
-  background-color:rgba(19, 19, 19, 0.5);
-  z-index:2;
+  background-color: rgba(19, 19, 19, 0.5);
+  z-index: 2;
   /* height:290px; */
   /* padding-top:200px; */
   /* padding-bottom:200px */
-
 }
 
 /* Position the "next button" to the right */
 .next4 {
   right: 0;
   border-radius: 3px 0 0 3px;
-
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev4:hover, .next4:hover {
-  background-color: rgba(0,0,0,0.8);
+.prev4:hover,
+.next4:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
-
-
 
 /* The dots/bullets/indicators */
 .dot4 {
@@ -953,7 +811,8 @@ padding-left:50px !important;
   transition: background-color 0.6s ease;
 }
 
-.activ4, .dot4:hover {
+.activ4,
+.dot4:hover {
   background-color: #717171;
   height: 15px;
   width: 30px;
@@ -968,114 +827,115 @@ padding-left:50px !important;
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
-
-
-
-
-
-#eyfs{
-  height:200px;
-  background-image:url(../img/home/play.png);
-  background-size:cover;
-  background-repeat:no-repeat;
-  background-position:center;
+#eyfs {
+  height: 200px;
+  background-image: url(../img/home/play.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-
-#eyfs:hover{
-  height:200px;
-  background-image:url(../img/eyfs.png);
-  background-size:cover;
-  background-repeat:no-repeat;
-  background-position:center;
+#eyfs:hover {
+  height: 200px;
+  background-image: url(../img/eyfs.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top:-5px;
 }
 
-
-#nursery{
-  height:200px;
-  background-image:url(../img/home/doc.png);
-  background-size:cover;
-  background-repeat:no-repeat;
-  background-position:center;
+#nursery {
+  height: 200px;
+  background-image: url(../img/home/doc.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
+#nursery:hover {
+  height: 200px;
+  background-image: url(../img/drama.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+    margin-top:-5px;
 
-#nursery:hover{
-  height:200px;
-  background-image:url(../img/drama.png);
-  background-size:cover;
-  background-repeat:no-repeat;
-  background-position:center;
 }
 
-#primary{
-  height:200px;
-  background-image:url(../img/home/class.png);
-  background-size:cover;
-  background-repeat:no-repeat;
-  background-position:center;
+#primary {
+  height: 200px;
+  background-image: url(../img/home/class.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
+#primary:hover {
+  height: 200px;
+  background-image: url(../img/sing.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+    margin-top:-5px;
 
-#primary:hover{
-  height:200px;
-  background-image:url(../img/sing.png);
-  background-size:cover;
-  background-repeat:no-repeat;
-  background-position:center;
 }
 
-
-#junior{
-  height:200px;
-  background-image:url(../img/home/wool.png);
-  background-size:cover;
-  background-repeat:no-repeat;
-  background-position:center;
+#junior {
+  height: 200px;
+  background-image: url(../img/home/wool.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
+#junior:hover {
+  height: 200px;
+  background-image: url(../img/lab2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+    margin-top:-5px;
 
-#junior:hover{
-  height:200px;
-  background-image:url(../img/lab2.png);
-  background-size:cover;
-  background-repeat:no-repeat;
-  background-position:center;
 }
 
-
-#senior{
-  height:200px;
-  background-image:url(../img/home/ball.png);
-  background-size:cover;
-  background-repeat:no-repeat;
-  background-position:center;
+#senior {
+  height: 200px;
+  background-image: url(../img/home/ball.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
+#senior:hover {
+  height: 200px;
+  background-image: url(../img/lab2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+    margin-top:-5px;
 
-#senior:hover{
-  height:200px;
-  background-image:url(../img/lab2.png);
-  background-size:cover;
-  background-repeat:no-repeat;
-  background-position:center;
 }
 
-
-#desk{
-  padding-left:60px
+#desk {
+  padding-left: 60px;
 }
-
-
 
 .overlay {
   position: absolute;
@@ -1085,16 +945,14 @@ padding-left:50px !important;
   /* background-color: rgba(60,83,147, 0.5); */
   overflow: hidden !important;
   height: 0;
-  transition: .5s ease;
-  backdrop-filter:blur(7px);
-  -webkit-backdrop-filter:blur(7px);
+  transition: 0.5s ease;
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
 }
 
 .container2:hover .overlay {
   height: 100%;
 }
-
-
 
 .text {
   color: white;
@@ -1102,7 +960,7 @@ padding-left:50px !important;
   position: absolute;
   top: 50%;
   left: 50%;
-  padding:20px;
+  padding: 20px;
   /* border:solid 2px white; */
   /* border-radius:100%; */
   -webkit-transform: translate(-50%, -50%);
@@ -1111,14 +969,11 @@ padding-left:50px !important;
   text-align: center;
 }
 
-
 .image {
   display: block;
   width: 100%;
   height: auto;
 }
-
-
 
 .close2 {
   position: absolute;
@@ -1146,10 +1001,9 @@ padding-left:50px !important;
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
 }
-
 
 .modal-content2 {
   margin: auto;
@@ -1157,7 +1011,8 @@ padding-left:50px !important;
   width: 80%;
   max-width: 700px;
 }
-.modal-content2, #caption {
+.modal-content2,
+#caption {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
@@ -1165,13 +1020,21 @@ padding-left:50px !important;
 }
 
 @-webkit-keyframes zoom {
-  from {-webkit-transform:scale(0)}
-  to {-webkit-transform:scale(1)}
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
 }
 
 @keyframes zoom {
-  from {transform:scale(0)}
-  to {transform:scale(1)}
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
 }
 #caption {
   margin: auto;
@@ -1184,13 +1047,11 @@ padding-left:50px !important;
   height: 150px;
 }
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 700px) {
   .modal-content2 {
     width: 100%;
   }
 }
-
-
 
 .img-hover-zoom--brightness img {
   transition: transform 2s, filter 1.5s ease-in-out;
@@ -1204,51 +1065,40 @@ padding-left:50px !important;
   transform: scale(1.3);
 }
 
-
-
-
-
-
-
-
-
-
-
-#foot{
-  width:100%;
-  height:fit-content;
-  background-image:url(../img/flag.png);
-  padding:60px 40px 0 60px;
+#foot {
+  width: 100%;
+  height: fit-content;
+  background-image: url(../img/flag.png);
+  padding: 40px 0px 0 40px;
+  background-position:center center;
 }
-#foot p{color:white;   opacity:0.8
+#foot p {
+  color: white;
+  opacity: 0.8;
 }
 
-#foot h6{color:white;   opacity:0.8
+#foot h6 {
+  color: white;
+  opacity: 0.8;
 }
 
-#foot ul li{
-  color:white;
-  line-height:45px;
-  opacity:0.8
-
+#foot ul li {
+  color: white;
+  line-height: 45px;
+  opacity: 0.8;
 }
 
-
-#Lbutton{
-  background-color:rgb(66,135,189);
-  color:white;
-  border-top-right-radius:5px;
-  border-bottom-right-radius:5px;
-  border:hidden !important;
-  padding:10px
-
+#Lbutton {
+  background-color: rgb(66, 135, 189);
+  color: white;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: hidden !important;
+  padding: 10px;
 }
-#Linput{
-  padding:22px !important;
-
+#Linput {
+  padding: 22px !important;
 }
-
-
 
 /* Absolute Center Spinner */
 .loading {
@@ -1264,10 +1114,9 @@ padding-left:50px !important;
   right: 0;
 }
 
-
 /* Transparent Overlay */
 .loading:before {
-  content: '';
+  content: "";
   display: block;
   position: fixed;
   top: 0;
@@ -1275,10 +1124,10 @@ padding-left:50px !important;
   width: 100%;
   height: 100%;
 
-    /* background: radial-gradient(rgba(20, 20, 20,.8), rgba(0, 0, 0, 1));
+  /* background: radial-gradient(rgba(20, 20, 20,.8), rgba(0, 0, 0, 1));
 
   background: -webkit-radial-gradient(rgba(20, 20, 20,.8), rgba(0, 0, 0,1)); */
-  background-color:#000;
+  background-color: #000;
 }
 
 /* :not(:required) hides these rules from IE9 and below */
@@ -1292,7 +1141,7 @@ padding-left:50px !important;
 }
 
 .loading:not(:required):after {
-  content: '';
+  content: "";
   display: block;
   font-size: 10px;
   width: 1em;
@@ -1304,8 +1153,22 @@ padding-left:50px !important;
   -o-animation: spinner 150ms infinite linear;
   animation: spinner 150ms infinite linear;
   border-radius: 0.5em;
-  -webkit-box-shadow: rgba(255,255,255, 0.75) 1.5em 0 0 0, rgba(255,255,255, 0.75) 1.1em 1.1em 0 0, rgba(255,255,255, 0.75) 0 1.5em 0 0, rgba(255,255,255, 0.75) -1.1em 1.1em 0 0, rgba(255,255,255, 0.75) -1.5em 0 0 0, rgba(255,255,255, 0.75) -1.1em -1.1em 0 0, rgba(255,255,255, 0.75) 0 -1.5em 0 0, rgba(255,255,255, 0.75) 1.1em -1.1em 0 0;
-box-shadow: rgba(255,255,255, 0.75) 1.5em 0 0 0, rgba(255,255,255, 0.75) 1.1em 1.1em 0 0, rgba(255,255,255, 0.75) 0 1.5em 0 0, rgba(255,255,255, 0.75) -1.1em 1.1em 0 0, rgba(255,255,255, 0.75) -1.5em 0 0 0, rgba(255,255,255, 0.75) -1.1em -1.1em 0 0, rgba(255,255,255, 0.75) 0 -1.5em 0 0, rgba(255,255,255, 0.75) 1.1em -1.1em 0 0;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.75) 1.5em 0 0 0,
+    rgba(255, 255, 255, 0.75) 1.1em 1.1em 0 0,
+    rgba(255, 255, 255, 0.75) 0 1.5em 0 0,
+    rgba(255, 255, 255, 0.75) -1.1em 1.1em 0 0,
+    rgba(255, 255, 255, 0.75) -1.5em 0 0 0,
+    rgba(255, 255, 255, 0.75) -1.1em -1.1em 0 0,
+    rgba(255, 255, 255, 0.75) 0 -1.5em 0 0,
+    rgba(255, 255, 255, 0.75) 1.1em -1.1em 0 0;
+  box-shadow: rgba(255, 255, 255, 0.75) 1.5em 0 0 0,
+    rgba(255, 255, 255, 0.75) 1.1em 1.1em 0 0,
+    rgba(255, 255, 255, 0.75) 0 1.5em 0 0,
+    rgba(255, 255, 255, 0.75) -1.1em 1.1em 0 0,
+    rgba(255, 255, 255, 0.75) -1.5em 0 0 0,
+    rgba(255, 255, 255, 0.75) -1.1em -1.1em 0 0,
+    rgba(255, 255, 255, 0.75) 0 -1.5em 0 0,
+    rgba(255, 255, 255, 0.75) 1.1em -1.1em 0 0;
 }
 
 /* Animation */
@@ -1375,14 +1238,12 @@ box-shadow: rgba(255,255,255, 0.75) 1.5em 0 0 0, rgba(255,255,255, 0.75) 1.1em 1
   }
 }
 
-.head{
-  color:red;
+.head {
+  color: red;
   font-family: mont-m;
-
 }
-.head2{
+.head2 {
   font-family: noteworthy-b;
-
 }
 
 ul.breadcrumb {
@@ -1394,10 +1255,8 @@ ul.breadcrumb li {
   display: inline;
   font-size: 16px;
   font-family: mont-r;
-
-
 }
-ul.breadcrumb li+li:before {
+ul.breadcrumb li + li:before {
   /* padding: 18px; */
   color: black;
   /* content: "/\00a0"; */
@@ -1410,8 +1269,13 @@ ul.breadcrumb li a:hover {
   color: #01447e;
   text-decoration: underline;
 }
-.para{
-  line-height:35px;
-  font-family:mont-r;
-  font-size:18px;
+.para {
+  line-height: 35px;
+  font-family: mont-r;
+  font-size: 18px;
+}
+
+.btn-primary {
+  background-color: rgb(66, 135, 189) !important;
+  height: 45px !important;
 }
