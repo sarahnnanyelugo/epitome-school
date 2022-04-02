@@ -1278,4 +1278,22 @@ ul.breadcrumb li a:hover {
 .btn-primary {
   background-color: rgb(66, 135, 189) !important;
   height: 45px !important;
+
+}
+.btn-primary:hover{
+      animation: zoom-in-zoom-out 1s ease infinite !important;
+        background-color: rgba(66, 135, 189,0.7) !important;
+
+
+}
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.1, 1.1);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
 }
