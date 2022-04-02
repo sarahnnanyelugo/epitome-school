@@ -256,7 +256,7 @@ html {
   font-size: 16px;
 }
 .activenavbar {
-  border-bottom: solid 4px white;
+  border-bottom: solid 4px black;
 }
 
 .dropdown2 {
@@ -1078,7 +1078,7 @@ html {
   width: 100%;
   height: fit-content;
   background-image: url(../img/flag.png);
-  padding: 40px 0px 0 40px;
+  /* padding: 40px 0px 0 40px; */
   background-position:center center;
 }
 #foot p {
