@@ -224,13 +224,13 @@
 }
 
 #navbar {
-  height: 0px;
+  height: 60px;
   /* height:fit-content; */
   width: 100%;
   background-color: rgb(66, 135, 189);
   padding-right: 100px;
-  padding-bottom: 80px !important;
-  padding-top: 0px !important;
+  /* padding-bottom: 80px !important; */
+  padding-top: -40px !important;
 position: relative;
 z-index:500 !important;
 }
@@ -254,8 +254,11 @@ html {
   color:rgb(66,135,189) !important;
 }
 .mylinks {
-  padding-bottom: 60px !important; 
+  /* padding-bottom: 60px !important;  */
   font-size: 16px;
+  padding-top:30px;
+  padding-bottom:30px;
+  margin-top:-60px;
 }
 .dropdown2 .dropbtn2:hover{
   border-bottom: solid 4px white;
@@ -312,7 +315,9 @@ html {
   /* margin-top: -8px; */
   transition: max-height 0.2s ease-out !important;
   padding: 15px;
-  /* bottom:-135px !important; */
+  /* bottom:-135px !important; */;
+  /* top:80px; */
+  margin-bottom:-20px;
 }
 
 .dropdown2-content a {
