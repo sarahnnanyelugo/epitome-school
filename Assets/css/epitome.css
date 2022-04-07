@@ -260,10 +260,10 @@ html {
   padding-bottom:30px;
   margin-top:-60px;
 }
-.dropdown2 .dropbtn2:hover{
+/* .dropdown2 .dropbtn2:hover{
   border-bottom: solid 4px white;
 
-}
+} */
 .activenavbar {
   border-bottom: solid 4px white;
   /* padding-bottom:-90px !important; */
