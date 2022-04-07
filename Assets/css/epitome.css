@@ -17,6 +17,7 @@
   font-family: mont-m;
   src: url(mont-m.ttf);
 }
+
 @font-face {
   font-family: mm2;
   src: url(mm2.ttf);
@@ -141,6 +142,8 @@
   display: block !important;
 }
 
+
+
 .sidenav {
   height: 100% !important; /* 100% Full-height */
   width: 0; /* 0 width - change this with JavaScript */
@@ -230,8 +233,6 @@
   padding-top: 0px !important;
 position: relative;
 z-index:500 !important;
-  /* position:fixed; */
-  /* padding-bottom:60px !important; */
 }
 
 html {
@@ -253,11 +254,16 @@ html {
   color:rgb(66,135,189) !important;
 }
 .mylinks {
-  margin-top: -60px;
+  padding-bottom: 60px !important; 
   font-size: 16px;
+}
+.dropdown2 .dropbtn2:hover{
+  border-bottom: solid 4px white;
+
 }
 .activenavbar {
   border-bottom: solid 4px white;
+  /* padding-bottom:-90px !important; */
 }
 
 .dropdown2 {
@@ -303,10 +309,10 @@ html {
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 10 !important;
   font-weight: bolder;
-  margin-top: -8px;
+  /* margin-top: -8px; */
   transition: max-height 0.2s ease-out !important;
   padding: 15px;
-  top:65px !important;
+  /* bottom:-135px !important; */
 }
 
 .dropdown2-content a {
@@ -781,7 +787,7 @@ html {
   position: absolute;
   top: 50%;
   width: auto;
-  margin-top: -22px;
+  margin-top: -235px;
   padding: 16px;
   color: white;
   font-weight: bold;
@@ -789,12 +795,20 @@ html {
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
-  background-color: rgba(19, 19, 19, 0.5);
   z-index: 2;
-  /* height:290px; */
-  /* padding-top:200px; */
-  /* padding-bottom:200px */
+  height:470px;
+  padding-top:200px;
+  padding-bottom:200px;
+    background-color: rgba(19, 19, 19, 0.5) !important;
+
 }
+.gal{
+
+}
+
+
+
+
 
 /* Position the "next button" to the right */
 .next4 {
