@@ -230,7 +230,7 @@
   background-color: rgb(66, 135, 189);
   padding-right: 100px;
   /* padding-bottom: 80px !important; */
-  padding-top: -40px !important;
+  /* padding-top: -40px !important; */
 position: relative;
 z-index:500 !important;
 }
@@ -256,8 +256,8 @@ html {
 .mylinks {
   /* padding-bottom: 60px !important;  */
   font-size: 16px;
-  padding-top:30px;
-  padding-bottom:30px;
+  /* padding-top:60px; */
+  /* padding-bottom:20px; */
   margin-top:-80px;
 }
 /* .dropdown2 .dropbtn2:hover{
@@ -285,7 +285,7 @@ html {
   background-color: inherit;
   color: white;
   /* margin-bottom:50px !important; */
-  /* padding-bottom:33px; */
+  /* padding-bottom:50px; */
 }
 
 .dropdown2 .dropbtn2 a {
@@ -317,7 +317,8 @@ html {
   padding: 15px;
   /* bottom:-135px !important; */;
   /* top:80px; */
-  margin-bottom:-20px;
+  /* margin-bottom:-10px; */
+  /* top:50px; */
 }
 
 .dropdown2-content a {
