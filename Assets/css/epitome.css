@@ -99,6 +99,9 @@
     padding: 0 !important;
     margin: 0 !important;
   }
+  .g-images:hover{
+    filter: blur(7px)
+  }
   .next4 {
     margin-right: -40px !important;
   }
@@ -970,13 +973,14 @@ html {
   position: absolute;
   bottom: 0;
   left: 0;
-  right: -30px;
+  right: -40px;
   /* background-color: rgba(60,83,147, 0.5); */
   overflow: hidden !important;
   height: 0;
-  transition: 0.5s ease;
+  transition: 0.2s ease;
   backdrop-filter: blur(7px);
   -webkit-backdrop-filter: blur(7px);
+
 }
 
 .container2:hover .overlay {
